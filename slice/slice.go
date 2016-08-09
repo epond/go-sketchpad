@@ -2,6 +2,9 @@ package slice
 
 func Construction() []int {
 	slice := make([]int, 10)
+	for i, _ := range slice {
+		slice[i] = 3
+	}
 	return slice
 }
 
